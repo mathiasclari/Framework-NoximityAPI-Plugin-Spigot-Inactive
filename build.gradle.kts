@@ -4,6 +4,7 @@ plugins {
 
 group = "com.noximity"
 version = "1.0.0"
+description = "A plugin for Velocity that allows players to teleport to each other."
 
 repositories {
     mavenCentral()
