@@ -1,0 +1,4 @@
+name: FrameworkWaterfall
+version: 1.0.0
+main: com.noximity.waterfall.FrameworkWaterfall
+description: Framework is fundation plugin that is shaded into all other plugins made by Noximity.

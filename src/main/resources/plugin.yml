@@ -1,0 +1,6 @@
+name: FrameworkPaper
+version: 1.0.0
+main: com.noximity.paper.FrameworkPaper
+description: Framework is fundation plugin that is shaded into all other plugins made by Noximity.
+author: Noximity
+api-version: '1.20'

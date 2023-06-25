@@ -1,0 +1,16 @@
+# YOU CAN CHANGE LANGUAGE OR MESSAGES IN LANGUAGE FOLDER!
+# If you are interested in translating the plugin into your language you can do that on our GitHub Page
+# https://github.com/NoximityMC/PluginTranslations
+language: en_US
+
+# DATABASE INFORMATION!
+# Do NOT share this information with anyone!
+
+# Database type: mysql, sqlite
+database_type: sqlite
+# Database credentials
+host: 127.0.0.1
+port: 3306
+database: database
+user: user
+password: password
