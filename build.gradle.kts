@@ -1,5 +1,6 @@
 plugins {
-    id("java")
+    java
+    `maven-publish`
 }
 
 group = "com.noximity"
@@ -9,9 +10,9 @@ description = "A plugin for Velocity that allows players to teleport to each oth
 repositories {
     mavenCentral()
     maven("https://repo.papermc.io/repository/maven-public/")
-    maven ("https://repo.dmulloy2.net/repository/public/")
-    maven ("https://oss.sonatype.org/content/groups/public/")
-
+    maven("https://repo.dmulloy2.net/repository/public/")
+    maven("https://oss.sonatype.org/content/groups/public/")
+    maven("https://jitpack.io")
 }
 
 java {
@@ -22,11 +23,10 @@ dependencies {
     compileOnly("io.papermc.paper:paper-api:1.20-R0.1-SNAPSHOT")
     compileOnly("com.velocitypowered:velocity-api:3.1.1")
     annotationProcessor("com.velocitypowered:velocity-api:3.1.1")
-    compileOnly ("io.github.waterfallmc:waterfall-api:1.19-R0.1-SNAPSHOT")
+    compileOnly("io.github.waterfallmc:waterfall-api:1.19-R0.1-SNAPSHOT")
     implementation("commons-io:commons-io:2.13.0")
     implementation("org.xerial:sqlite-jdbc:3.42.0.0")
     implementation("mysql:mysql-connector-java:8.0.33")
-
 }
 
 tasks {
@@ -46,7 +46,7 @@ tasks {
             "name" to project.name,
             "version" to project.version,
             "description" to project.description,
-            "apiVersion" to "1.20"
+            "apiVersion" to "1.0.0"
         )
         inputs.properties(props)
         filesMatching("plugin.yml") {
