@@ -1,18 +1,17 @@
 plugins {
-    java
-    `maven-publish`
+    id("java")
+
 }
 
 group = "com.noximity"
 version = "1.0.0"
-description = "A plugin for Velocity that allows players to teleport to each other."
+description = "Framework is library made by Noximity that is inside of all of Noximity plugins."
 
 repositories {
     mavenCentral()
     maven("https://repo.papermc.io/repository/maven-public/")
-    maven("https://repo.dmulloy2.net/repository/public/")
-    maven("https://oss.sonatype.org/content/groups/public/")
-    maven("https://jitpack.io")
+    maven ("https://repo.dmulloy2.net/repository/public/")
+    maven ("https://oss.sonatype.org/content/groups/public/")
 }
 
 java {
@@ -23,10 +22,11 @@ dependencies {
     compileOnly("io.papermc.paper:paper-api:1.20-R0.1-SNAPSHOT")
     compileOnly("com.velocitypowered:velocity-api:3.1.1")
     annotationProcessor("com.velocitypowered:velocity-api:3.1.1")
-    compileOnly("io.github.waterfallmc:waterfall-api:1.19-R0.1-SNAPSHOT")
+    compileOnly ("io.github.waterfallmc:waterfall-api:1.19-R0.1-SNAPSHOT")
     implementation("commons-io:commons-io:2.13.0")
     implementation("org.xerial:sqlite-jdbc:3.42.0.0")
     implementation("mysql:mysql-connector-java:8.0.33")
+
 }
 
 tasks {
