@@ -2,7 +2,6 @@
 
 <div align="center">
   <img alt="License" src="https://img.shields.io/badge/License-GNU-%23722471?style=for-the-badge">
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/NoximityMC/Framework?style=for-the-badge&color=%23722471">
     <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/NoximityMC/Framework?style=for-the-badge&color=%23722471">
     <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/NoximityMC/Framework?style=for-the-badge&color=%23722471">
     <img alt="Discord" src="https://img.shields.io/discord/1099815036085600386?style=for-the-badge&color=%23722471">
